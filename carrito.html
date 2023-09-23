@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <nav>
+        <div id="cnt-nav">
+            <div id="cnt-nav-logo"><img src="/recursos/Fotos/logo iFrame.png" alt="iFrame"></div>
+            <ul class="cnt-nav-links">
+                <li class="link"><a href="inicio.html">INICIO</a></li>
+                <li class="link"><a href="productos.html">PRODUCTOS</a></li>
+                <li class="link"><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+            <div class="cnt-nav-toggle">
+                |||
+            </div>
+        </div>
+    </nav>
+    <div id="cnt-menuGestion">
+        <div>Bienvenido: Usuario</div>
+        <div><a href="carrito.html"><img src="/recursos/Fotos/carrito-de-compras.png" alt=""></a></div>
+        <div><button>LOG OUT</button></div>
+    </div>
+    <div id="cnt-body-productos">
+        <aside>
+            <header><h2>CARRITO</h2></header>
+            <div class="cnt-body-nav-carrito">
+                <ul class="cnt-body-menu-carrito">
+                    <li><button class="boton-menu boton-categoria"><a href="#">VOLVER</a></button></li>
+                    <li><button class="boton-menu boton-carrito active"><a href="carrito.html">CARRITO</a></button></li>
+                </ul>
+            </div>
+        </aside>
+        <main>
+            <h2>CARRITO</h2>
+            <div class="cnt-carrito">
+                <p class="carrito-vacio">TU CARRITO ESTA VACIO</p>
+                <div class="carrito-productos">
+                    <div class="carrito-producto">
+                        <img class="carrito-producto-imagen" src="./recursos/Fotos/PC01.jpg" alt="">
+                        <div class="carrito-producto-titulo">
+                            <small>TITULO</small>
+                            <h3>CAMARA 01</h3>
+                        </div>
+                        <div class="carrito-producto-cantidad">
+                            <small>CANTIDAD</small>
+                            <P>1</P>
+                        </div>
+                        <div class="carrito-producto-precio">
+                            <small>PRECIO</small>
+                            <p>$XXXX</p>
+                        </div>
+                        <div class="carrito-producto-subtotal">
+                            <small>SUBTOTAL</small>
+                            <p>$XXXX</p>
+                        </div>
+                        <button class="carrito-producto-eliminar">ELIMINAR</button>
+                    </div>
+                    <div class="carrito-producto">
+                        <img class="carrito-producto-imagen" src="./recursos/Fotos/PC01.jpg" alt="">
+                        <div class="carrito-producto-titulo">
+                            <small>TITULO</small>
+                            <h3>CAMARA 02</h3>
+                        </div>
+                        <div class="carrito-producto-cantidad">
+                            <small>CANTIDAD</small>
+                            <P>1</P>
+                        </div>
+                        <div class="carrito-producto-precio">
+                            <small>PRECIO</small>
+                            <p>$XXXX</p>
+                        </div>
+                        <div class="carrito-producto-subtotal">
+                            <small>SUBTOTAL</small>
+                            <p>$XXXX</p>
+                        </div>
+                        <button class="carrito-producto-eliminar">ELIMINAR</button>
+                    </div>
+                    <div class="carrito-producto">
+                        <img class="carrito-producto-imagen" src="./recursos/Fotos/PC01.jpg" alt="">
+                        <div class="carrito-producto-titulo">
+                            <small>TITULO</small>
+                            <h3>CAMARA 03</h3>
+                        </div>
+                        <div class="carrito-producto-cantidad">
+                            <small>CANTIDAD</small>
+                            <P>1</P>
+                        </div>
+                        <div class="carrito-producto-precio">
+                            <small>PRECIO</small>
+                            <p>$XXXX</p>
+                        </div>
+                        <div class="carrito-producto-subtotal">
+                            <small>SUBTOTAL</small>
+                            <p>$XXXX</p>
+                        </div>
+                        <button class="carrito-producto-eliminar">ELIMINAR</button>
+                    </div>
+                </div>
+                <div class="carrito-acciones">
+                    <div class="carrito-acciones-izquierda">
+                        <button class="carrito-acciones-vaciar">VACIAR CARRITO</button>
+                    </div>
+                    <div class="carrito-acciones-derecha">
+                        <div class="carrito-acciones-total">
+                            <p>TOTAL: </p>
+                            <p id="total">$XXXX</p>
+                        </div>
+                        <button class="carrito-acciones-comprar">COMPRAR</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <footer>
+        <div id="cnt-footer">
+            <div id="cnt-footer-info">
+                <p>julian.bianchi@davinci.edu.ar</p>
+            </div>
+            <div id="cnt-footer-redes">
+                <div id="cnt-footer-redes-logos">
+                    <img src="/recursos/Fotos/facebook.png" alt="#">
+                </div>
+                <div id="cnt-footer-redes-logos">
+                    <img src="/recursos/Fotos/instagram.png" alt="#">
+                </div>
+                <div id="cnt-footer-redes-logos">
+                    <img src="/recursos/Fotos/linkedin.png" alt="#">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js" type="module"></script>
+</body>
+</html>
