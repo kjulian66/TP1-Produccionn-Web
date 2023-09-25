@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <div id="cnt-nav">
+            <div id="cnt-nav-logo"><img src="./recursos/Fotos/logo iFrame.png" alt="iFrame"></div>
+            <ul class="cnt-nav-links">
+                <li class="link"><a href="inicio.html">INICIO</a></li>
+                <li class="link"><a href="productos.html">PRODUCTOS</a></li>
+                <li class="link act"><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+            <div class="cnt-nav-toggle">
+                |||
+            </div>
+        </div>
+        <div id="cnt-menuGestion">
+            <div>Bienvenido: Usuario</div>
+            <div><a href="carrito.html"><img src="./recursos/Fotos/carrito-de-compras.png" alt=""></a></div>
+            <div><button>LOG OUT</button></div>
+        </div>
+    </nav>
+
+    <div id="cnt-body-compras">
+        <aside>
+            <header><h2>Contacto</h2></header>
+            <div class="cnt-body-nav-compras">
+                <ul class="cnt-body-menu-comprass">
+                    <li><button class="boton-menu boton-categoria"><a href="javascript:history.go(-1)">VOLVER</a></button></li>
+                </ul>
+            </div>
+        </aside>
+        <main class="cnt-body-compras-main">
+            <h2>Contacto</h2>
+            <div class="cnt-compras-info">
+                <div class="compra-detalles">
+                    <h3 class="compra-titulo">Contacto</h3>
+                    <p>Preguntanos lo que quieras por este medio o por nuestras redes sociales</p>
+                    <p>Tambien puedes contactarnos por llamado al:</p>
+                    <p>XX-XXXX-XXXX</p>
+                </div>
+            </div>
+            <div class="cnt-compras-tarjeta">
+                <form action="#" method="post">
+                    <input type="text" required placeholder="Email"><br>
+                    <input type="text" required placeholder="Asunto"><br>
+                    <textarea name="" id="" cols="30" rows="10" required placeholder="Mensaje"></textarea>
+                    <button type="submit" value="Enviar">ENVIAR</button>
+                </form>
+            </div>
+
+        </main>
+    </div>
+    <footer>
+        <div id="cnt-footer">
+            <div id="cnt-footer-info">
+                <p>julian.bianchi@davinci.edu.ar</p>
+            </div>
+            <div id="cnt-footer-redes">
+                <div id="cnt-footer-redes-logos">
+                    <img src="./recursos/Fotos/facebook.png" alt="#">
+                </div>
+                <div id="cnt-footer-redes-logos">
+                    <img src="./recursos/Fotos/instagram.png" alt="#">
+                </div>
+                <div id="cnt-footer-redes-logos">
+                    <img src="./recursos/Fotos/linkedin.png" alt="#">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./script.js" type="module"></script>
+</body>
+</html>
