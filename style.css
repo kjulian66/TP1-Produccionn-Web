@@ -600,12 +600,24 @@ main {
     text-align: center;
     position: relative;
     display: grid;
-    width: 40%;
+    width: 50%;
     margin-left: 25%;
     z-index: 1;
     margin-top: 100px;
     border-radius: 15px;
     box-shadow: 0px 0px 7px 5px rgba(0, 0, 0, 0.500);
+}
+
+#cnt-body-index div form button {
+    color: white;
+}
+
+#cnt-body-index div form input {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid red;
+    background-color: transparent;
+    color: white;
 }
 
 #cnt-nav-index{
